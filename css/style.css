@@ -1,0 +1,158 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+body{
+  font-family: 'Quicksand', sans-serif; 
+}
+
+/* Register header */
+header{
+  height: 300px;
+  background-color: brown;
+}
+
+header .container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header h2{
+  padding: 30px 0 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+header .container span{
+  font-size: 22px;
+  padding: 0 10px;
+}
+
+header .container input{
+  font-size: 22px;
+  margin: 10px;
+}
+
+header .container .btn{
+  padding: 5px;
+  text-align: center;
+}
+
+/* Page */
+section{
+  height: 100px;
+  background-color: brown;
+}
+
+.space{
+  padding: 0 50px;
+}
+
+section .login{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .login h1{
+  font-size: 30px;
+}
+section h2{
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+}
+
+section h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+}
+
+section h4{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+/* MAIN */
+main{
+  background-color: #1e2d3b;
+  height: 100vh;
+}
+
+/* container */
+main .container{
+  width: 80%;
+  margin: 0px auto;
+  padding: 80px 0;
+}
+
+main h1{
+  padding: 15px 15px 35px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;  
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main .container .row{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+main .container .row .col{
+  width: calc((100% / 5) - 30px);
+  background-color: #2d3a46;
+  margin: 15px;
+}
+
+.card-content{
+  background-color: #2d3a46;
+  padding: 15px 15px 35px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;    
+}
+
+.card-content img{
+  margin: 0 auto;
+  height: 350px;
+}
+
+.card-content .text-tile{
+  padding-top: 20px;
+  text-align: center;
+  display: block;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-size: 22px;
+}
+
+.card-content .cont-subtitle{
+  padding-top: 10px;
+}
+
+.card-content .cont-subtitle .subtitle{
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  color: #6d7175;
+  padding-block: 2px; 
+}
