@@ -16,7 +16,7 @@
   
       // override
       public function getInfo() {
-          return "$this->marca $this->Tipologia - peso netto: $this->peso Kg - Prezzo: $this->prezzo Euro";
+          return "$this->marca <br>  $this->Tipologia <br> - peso netto: $this->peso Kg <br> - Prezzo: $this->prezzo €";
       }
   }
 

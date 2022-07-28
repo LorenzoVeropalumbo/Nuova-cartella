@@ -15,7 +15,7 @@
       }
 
       public function getInfo() {
-          return "$this->marca $this->Tipologia - Prezzo: $this->prezzo Euro";
+          return "$this->marca <br> $this->Tipologia <br> - Prezzo: $this->prezzo Euro";
       }
   }
 

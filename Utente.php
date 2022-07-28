@@ -16,7 +16,6 @@ class Utente {
 
   public function aggiungiProdotto($prodotto) {
     $this->prodottiScelti[] = $prodotto;
-    var_dump("dawad");
   }
 
   public function getProdottiScelti() {
@@ -38,12 +37,12 @@ class Utente {
 
   public function effettuaPagamento() {
     $totaleDaPagare = $this->calcolaPrezzoTotale();
-    var_dump($totaleDaPagare);
+    var_dump();
 
     if($this->saldo < $totaleDaPagare) {
       die('Saldo non disponibile');
     } else {
-      return 'ok';
+      return $totaleDaPagare;
     }
   }
 }

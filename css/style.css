@@ -89,7 +89,6 @@ section h4{
 /* MAIN */
 main{
   background-color: #1e2d3b;
-  height: 100vh;
 }
 
 /* container */
@@ -142,17 +141,12 @@ main .container .row .col{
   font-weight: 900;
   text-transform: uppercase;
   line-height: 1.1;
-  font-size: 22px;
+  font-size: 16px;
 }
 
-.card-content .cont-subtitle{
-  padding-top: 10px;
-}
-
-.card-content .cont-subtitle .subtitle{
+.checkout{
   text-align: center;
-  display: block;
-  font-size: 18px;
-  color: #6d7175;
-  padding-block: 2px; 
+  font-size: 30px;
+  background-color: aliceblue;
+  padding: 10px 0;
 }
