@@ -35,14 +35,13 @@ class Utente {
     return $sommaTotale;
   }
 
-  public function effettuaPagamento() {
+  public function effettuaPagamento($cartaPrepagata) {
     $totaleDaPagare = $this->calcolaPrezzoTotale();
-    var_dump();
 
-    if($this->saldo < $totaleDaPagare) {
-      die('Saldo non disponibile');
+    if($cartaPrepagata->saldo < $totaleDaPagare) {
+      throw new Exception("Utente: $this->nome: Saldo non disponibile sulla carta");
     } else {
-      return $totaleDaPagare;
+      return 'ok';
     }
   }
 }
